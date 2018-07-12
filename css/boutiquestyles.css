@@ -1,0 +1,116 @@
+/*
+Limited By Vision
+Final Project
+Ecommerce Website
+
+Limited By Vision
+Author: Lissette Ayala
+Date: 04/01/2018
+
+   Filename: boutiquestyles.css
+
+*/
+
+/* Body styles */
+h4 {
+    color: rgb(148,51,62);
+}
+
+/* Section styles */
+
+.defaultimages {
+  position: relative;
+  min-height: 820px;
+  min-width: 80%;
+  width: 80%;
+  display: block;
+  /* padding: 0px 10px; */
+  vertical-align: top;
+  border-right: 1px;
+  margin-left: -7px;
+  float: right;
+}
+
+.overlay {
+position: absolute;
+bottom: 0;
+left: 100%;
+right: 0;
+background-color: rgb(148, 51, 62);
+overflow: hidden;
+width: 0;
+height: 100%;
+transition: .5s ease;
+}
+
+.defaultimages:hover .overlay {
+  width: 100%;
+  left: 0;
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* Navigation styles */
+
+.vertical {
+   background-color: pink;
+   /* float: left; */
+   min-height: 975px;
+   display: inline-block;
+   width: 200px;
+}
+
+.vertical:first-of-type {
+	font-size: 14pt;
+	text-transform: small-caps;
+  font-style: bold;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.vertical li a {
+  text-decoration: none;
+  color: white;
+}
+
+.vertical li a:hover {
+  background-color: rgb(148, 51, 62);
+  display: block;
+}
+
+.vertical ul {
+   list-style-type: none;
+   padding-left: 0px;
+   margin-left: 15px;
+   padding-left: 0px;
+   text-indent: 5px;
+}
+
+.vertical ul li {
+   font-size: 16pt;
+   line-height: 100%;
+}
+
+
+.vertical ul li a {
+   color: white;
+   text-decoration: none;
+    line-height: 150%;
+}
+
+.vertical ul li a:hover {
+   background-color: rgb(148, 51, 62);
+   display: block;
+   line-height: 150%;
+}

@@ -1,0 +1,196 @@
+/*
+Limited By Vision
+Final Project
+Ecommerce Website
+
+Limited By Vision
+Author: Lissette Ayala
+Date: 04/01/2018
+
+   Filename: hybridboutiquestyles.css
+
+*/
+
+/* Body styles */
+
+body * {
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 100%;
+   line-height: 1.2em;
+   list-style: none;
+   text-decoration: none;
+   vertical-align: baseline;
+}
+
+body {
+   /* margin: 10px auto; */
+   /* width: 90%; */
+   /* min-width: 820px; */
+   /* max-width: 1400px; */
+}
+
+header {
+   border-bottom: 1px solid rgb(81,105,165);
+}
+
+
+/* Paragraph Styles */
+
+p {
+   margin: 0px 10px 10px 10px;
+}
+
+
+/* Navigation styles */
+
+.vertical {
+   background-color: pink;
+   /* float: left; */
+   min-height: 975px;
+   display: inline-block;
+}
+
+.vertical ul {
+   list-style-type: none;
+   padding-left: 0px;
+   margin-left: 15px;
+   padding-left: 0px;
+   text-indent: 5px;
+}
+
+.vertical ul li {
+   font-size: 16pt;
+   line-height: 230%;
+}
+
+nav.vertical ul li:first-of-type {
+	font-size: 24pt;
+	text-transform: small-caps;
+  font-style: bold;
+}
+
+.vertical ul li a {
+   color: white;
+   text-decoration: none;
+}
+
+.vertical ul li a:hover {
+   background-color: rgb(148, 51, 62);
+   display: block;
+   line-height: 230%;
+}
+
+/* Section Styles */
+
+section.form_content {
+   min-height: 820px;
+   width: 80%;
+   display: inline-block;
+/* padding: 0px 10px; */
+   vertical-align: top;
+   border-right: 1px solid rgb(81, 105, 165);
+   margin-left: -7px;
+    background-color: rgb(255,255,240);
+}
+
+section hgroup h1 {
+   font-size: 1.5em;
+   font-weight: bold;
+   color: rgb(230, 127, 144);
+   letter-spacing: 5px;
+   margin: 5px 0px 0px 5px;
+}
+
+section h2 {
+   font-size: 14pt;
+   color: rgb(230, 127, 144);
+   margin: 10px 0px 5px 0px;
+   text-indent: 10px;
+}
+
+
+section p {
+   font-size: 12pt;
+   margin: 10px;
+   padding: 0 20px;
+}
+
+
+/* Fieldset styles */
+fieldset {
+    background-color: rgb(219,127,144);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    width: 100%;
+}
+
+/* Label Styles */
+label {
+    display: block;
+    clear: left;
+    float: left;
+    font-size: 12pt;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Input control styles */
+input, textarea {
+    float: right;
+    font-size: 0.9em;
+    width: 55%;
+    height: 20%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+textarea {
+    height: 150px;
+}
+
+input#submit {
+    clear: left;
+    clear: right;
+    clear: up;
+    clear: down;
+    display: block;
+    float: none;
+    width: 240px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input:focus {
+    background-color: rgb(255,255,240);
+}
+
+input:focus:valid {
+    background: rgb(255,240,225) url("go.png") bottom right no-repeat;
+}
+
+input:focus:invalid {
+    background: rgb(240,225,225) url(stop.png) bottom right no-repeat;
+}
+
+select#occasion  {
+    float: left;
+    font-size: 0.8em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 170px;
+}
+
+/* Footer styles */
+
+footer p {
+  font-size: 10px;
+  line-height: 30px;
+  text-align: center;
+}
